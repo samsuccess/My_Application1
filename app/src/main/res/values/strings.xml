@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">My Application1</string>
     <string name="my_name">My name ...</string>
-    <string name="enter_name">Enter name</string>
+    <string name="enter_name">enter name</string>
     <string name="button">BUTTON</string>
+    <string name="enter_text">enter_text</string>
+    <string name="enter_phone">enter_phone</string>
+    <string name="enter_number">enter_number</string>
+    <string name="enter_password">enter_password</string>
+    <string name="enter_email">enter_email</string>
+    <string name="enter_date">enter_date</string>
+    <string name="BACK">BACK</string>
+    <string name="NEXT">NEXT</string>
 </resources>

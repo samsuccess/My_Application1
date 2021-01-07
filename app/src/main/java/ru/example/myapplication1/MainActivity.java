@@ -2,6 +2,7 @@ package ru.example.myapplication1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 linearLayout.setBackgroundResource(R.drawable.newbackground);
+            }
+        });
+
+        Button butNext = findViewById(R.id.next);
+        butNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i;
+                i = new Intent(MainActivity.this, MainActivity1.class);
+                startActivity(i);;
             }
         });
     }
