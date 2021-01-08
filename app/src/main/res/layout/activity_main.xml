@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"
         android:textColor="@color/purple_700"
-        android:textSize="45sp"
+        android:textSize="@dimen/textSize"
         android:textStyle="italic"
         android:layout_gravity="center" />
 

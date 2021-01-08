@@ -2,4 +2,5 @@
 <resources>
     <dimen name="marginTop">30dp</dimen>
     <dimen name="marginBottom">50dp</dimen>
+    <dimen name="textSize">45sp</dimen>
 </resources>
